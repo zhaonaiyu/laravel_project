@@ -1,0 +1,141 @@
+.order{
+    background-color: #f3f3f3;
+}
+
+
+.order_banner{
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.order_banner a{
+    display: flex;
+}
+.order_banner a img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.order_main{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.order_main_nav{
+    padding: 15px 35px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 5px;
+}
+.order_main_nav a{
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+}
+.order_main_nav i{
+    height: 15px;
+    border-left: 1px solid #333;
+    margin: 0 20px;
+}
+
+
+
+
+.order_main_title{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border: #f3f3f3 1px solid ;
+}
+.order_main_title>span{
+    width: 12%;
+    text-align: center;
+    color: #999;
+}
+.order_main_title .order_main_title_cart{
+    width: 52%;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 35px;
+    font-size: 16px;
+    color: #999;
+    font-weight: 600;
+}   
+
+
+.order_main_one_box{
+    margin-bottom: 10px;
+}
+
+.order_main_one{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #eee;
+}
+.order_main_one:nth-child(1){
+    border: none;
+}
+
+.order_main_one>section{
+    width: 12%;
+    display: flex;
+    align-items: center;
+    margin:20px 0;
+}
+.order_main_one .order_main_one_cart{
+    width: 52%;
+    text-align: left;
+    box-sizing: border-box;
+    color: #333;
+    display: flex;
+}   
+
+.order_main_one_cart>img{
+    min-width: 140px;
+    min-height: 140px;
+    margin:0 35px;
+}
+.order_main_one_cart div{
+    min-height: 140px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    color: #999;
+    font-size: 16px;
+}
+.order_main_one_cart div span:nth-child(1){
+    color: #333;
+}
+
+.order_main_one_price{
+    flex-flow: column;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+}
+
+
+.order_main_one_number{
+    justify-content: center;
+    font-size: 20px;
+}
+
+.order_main_one_subtotal{
+    justify-content: center;
+    color: #ed0626;
+    font-size: 20px;
+}
+
+.order_main_one_operation{
+    justify-content: center;
+    font-size: 16px;
+    color: black;
+    flex-flow: column;
+}

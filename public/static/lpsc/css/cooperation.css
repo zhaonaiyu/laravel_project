@@ -1,0 +1,127 @@
+.cooperation{
+    background-color: #f3f3f3;
+    width: 100%;
+}
+.cooperation_banner{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cooperation_main{
+    width: 1200px;
+    margin: 0 auto 30px;
+}
+.cooperation_main_one{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-top: 1px solid #eee;
+}
+.cooperation_main_one:nth-child(1){
+    border: none;
+}
+.cooperation_main_one_left{
+    width: 20%
+}
+.cooperation_main_one_left_title{
+    font-size: 22px;
+    color: #777;
+}
+.cooperation_main_one_left_list{
+    font-size: 20px;
+    display: flex;
+    flex-flow: wrap;
+    padding-top: 5px;
+}
+.cooperation_main_one_left_list span{
+    margin: 0 5px 5px 0;
+}
+
+
+.cooperation_main_one_right {
+    width: 75%;
+    background-color: white;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+.cooperation_main_one_right_one {
+    width: 24%;
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid#eee;
+    overflow: hidden;
+}
+
+.cooperation_main_one_right_one img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.cooperation_main_one_right_one .cooperation_main_one_right_one_b {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.cooperation_main_one_right_one:hover .cooperation_main_one_right_one_a {
+    opacity: 0;
+}
+
+.cooperation_main_one_right_one:hover .cooperation_main_one_right_one_b {
+    opacity: 1;
+}
+
+
+
+.cooperation_recommend{
+    width: 1200px;
+    margin: 0 auto ;
+}
+.cooperation_recommend_title{
+    background-color: white;
+    font-size: 24px;
+    color: black;
+    padding:20px 30px;
+}
+.cooperation_recommend_main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    padding-bottom: 50px;
+}
+.cooperation_recommend_one{
+    width: 24.5%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: white;
+}
+.cooperation_recommend_one img{
+    width: 235px;
+    height: 235px;
+}
+
+.cooperation_recommend_one span{
+    width: 100%;
+    font-size: 20px;
+    color: #ed0626
+}
+.cooperation_recommend_one span:nth-of-type(1){
+    margin: 20px 0 10px;
+    font-size: 16px;
+    color: #333;
+}

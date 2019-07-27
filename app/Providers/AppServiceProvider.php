@@ -14,7 +14,10 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
-        Schema::defaultStringLength(191);
+        // Schema::defaultStringLength(191);
+        //给所有的视图页共享变量
+        // view()->share('one','共享变量');
+        // view()->share('two',array('name'=>'奶哥','age'=>16));
     }
 
     /**

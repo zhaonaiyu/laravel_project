@@ -1,0 +1,58 @@
+.who{
+    width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.who_main{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+.who_main_one{
+    width: 23.5%;
+    display: flex;
+    flex-flow: column;
+    align-items:center;
+    justify-content: center;
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.who_main_one section{
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+.who_main_one section img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+}
+.who_main_one .qsb_aa{
+    opacity: 1;
+}
+.who_main_one .qsb_bb{
+    opacity: 0;
+}
+.who_main_one span{
+    font-size: 20px;
+    color: #333;
+    margin: 15px 0 0;
+}
+.who_main_one:hover{
+    border: 1px solid #ddd;
+}
+.who_main_one:hover .qsb_aa{
+    opacity: 0;
+}
+.who_main_one:hover .qsb_bb{
+    opacity: 1;
+}

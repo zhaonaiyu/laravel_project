@@ -1,0 +1,121 @@
+.contact{
+    width: 100%;
+    background-color: #f3f3f3;
+}
+
+.contact_form{
+    width: 1200px;
+    margin: 0 auto;
+}
+.contact_form_title{
+    margin-top: 30px;
+}
+.contact_form_title_a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact_form_title_a span{
+    margin: 0 20px;
+    font-size: 36px;
+    color: #333;
+}
+.contact_form_title_a i{
+    width: 40px;
+    border-top: 2px solid #333;
+}
+.contact_form_title_b{
+    color: #999;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.contact_form_input{
+    width: 920px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    padding: 50px 0 0;
+}
+.contact_form_input label{
+    width: 430px;
+    height: 55px;
+    border: 2px solid #d4d4d4;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+.contact_form_input label span{
+    color: #999;
+    font-size: 14px;
+    margin: 0 20px;
+}
+.contact_form_input label input{
+    border: none;
+    outline: none;
+    background-color: #f3f3f3;
+    color: #777;
+}
+
+.contact_form_textarea{
+    width: 920px;
+    margin: 0 auto;
+}
+.contact_form_textarea textarea{
+    width: 920px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+    resize: none;
+    border: 2px solid #d4d4d4;
+    background-color: #f3f3f3;
+    outline: none;
+    color: #777;
+}
+
+.contact_form_button{
+    text-align: center;
+}
+.contact_form_button button{
+    width: 250px;
+    height: 40px;
+    color: white;
+    background-color: #e46586;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    border-radius: 3px;
+    margin: 40px 0;
+}
+
+.contact_main{
+    width: 1200px;
+    margin: 0  auto;
+    padding: 50px 0;
+}
+.contact_main_list{
+    border-top: 1px solid #cbcbcb;
+    border-bottom: 1px solid #cbcbcb;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    background-color: #e8e6e6;
+}
+.contact_main_list>div{
+    width: 25%;
+    padding: 20px 0;
+}
+.contact_main_list>div section{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    color: #666;
+}
+.contact_main_list>div section span:nth-child(1){
+    font-size: 16px;
+    color: black;
+    margin-right: 5px;
+}

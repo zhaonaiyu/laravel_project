@@ -48,6 +48,13 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $exception)
     {
+        //  if ($exception) {
+        //     //TODO Laravel5.5 框架中 Exception 类不存在 getStatusCode（）方法,或许只能支持前面的版本！
+        //     $code = $exception->getStatusCode();
+        //     // $code = FlattenException::create($exception)->getStatusCode();
+        //     // return response()->view('error.blade.phhp');
+        // }
+            // dd($exception);
         return parent::render($request, $exception);
     }
 }

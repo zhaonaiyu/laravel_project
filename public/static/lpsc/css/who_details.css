@@ -1,0 +1,213 @@
+.who_details{
+    width: 100%;
+    background-color: #f3f3f3;
+    padding: 3px 0 30px;
+}
+
+.who_details_banner{
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+.who_details_banner a{
+    display: flex;
+}
+.who_details_banner a img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.who_details_main{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.who_details_main_search{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 0 auto 5px;
+    padding:20px 0;
+}
+.who_details_main_search_left{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+.who_details_main_search_left_title{
+    font-size: 24px;
+    color: black;
+}
+.who_details_main_search_left_two{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.who_details_main_search_left_two span{
+    padding: 0 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.who_details_main_search_left_content{
+    display: flex;
+    align-items: center;
+    padding-left:40px;
+}
+.who_details_main_search_left_content input{
+    width: 100px;
+    border: 1px solid #e5e5e5;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    margin:  0 15px;
+}
+.who_details_main_search_left_content button{
+    width: 60px;
+    height: 29px;
+    border: none;
+    outline: none;
+    background-color: #ed0626;
+    color: white;
+}
+
+.who_details_main_search_right{
+    padding:  0 25px;
+    font-size: 16px;
+}
+.who_details_main_search_right span:nth-of-type(2){
+    font-size: 18px;
+    color: #ed0626;
+    margin: 0 5px;
+}
+
+
+.who_details_main_content{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+.who_details_main_content_one{
+    width: 24.5%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.who_details_main_content_one img{
+    width: 237px;
+    height: 237px;
+}
+.who_details_main_content_one span{
+    width: 237px;
+    font-size: 20px;
+    color: #ed0626
+}
+.who_details_main_content_one span:nth-of-type(1){
+    margin: 20px 0 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+
+
+.index_all_title {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.index_all_title_left {
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+    color: #999;
+}
+
+.index_all_title_left span:nth-child(1) {
+    font-size: 24px;
+    color: #333;
+    margin-right: 10px;
+}
+
+.index_all_title_right a {
+    font-size: 14px;
+    color: #999;
+}
+
+
+
+.product_interlocution{
+    width: 100%;
+    background-color: white;
+    padding: 20px 0 50px;
+}
+.product_interlocution_main{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.product_interlocution_main_left{
+    width: 470px;
+    height: 255px;
+}
+.product_interlocution_main_left img{
+    width: 470px;
+    height: 255px;
+    display:block;
+}
+.product_interlocution_main_right{
+    width: 670px;
+    height: 255px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.product_interlocution_main_right_one{
+    height: 48%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+.product_interlocution_main_right_one:nth-child(1){
+    justify-content: flex-start;
+}
+.product_interlocution_main_right_one_title{
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product_interlocution_main_right_one_title img{
+    width: 570px;
+}
+
+.product_interlocution_main_right_one_list{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+.product_interlocution_main_right_one_list a{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #999;
+    justify-content: space-between;
+}
+.product_interlocution_main_right_one_list a:hover{
+    color: #ed0626;
+}
